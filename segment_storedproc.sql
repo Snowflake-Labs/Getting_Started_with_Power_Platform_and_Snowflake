@@ -1,3 +1,5 @@
+use database hol_db;
+use schema public;
 CREATE OR REPLACE PROCEDURE segmentize(Table_Name STRING, Target_Name String)
 RETURNS VARCHAR NOT NULL
 LANGUAGE SQL
